@@ -4,6 +4,16 @@ from __future__ import division
 import platform
 import numpy as np
 import config
+import pigpio
+import random
+
+bright = 255
+
+RED_PIN   = 17
+GREEN_PIN = 22
+BLUE_PIN  = 24
+
+pi = pigpio.pi()
 
 # ESP8266 uses WiFi communication
 if config.DEVICE == 'esp8266':
@@ -11,11 +21,12 @@ if config.DEVICE == 'esp8266':
     _sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Raspberry Pi controls the LED strip directly
 elif config.DEVICE == 'pi':
-    from rpi_ws281x import *
-    strip = Adafruit_NeoPixel(config.N_PIXELS, config.LED_PIN,
-                                       config.LED_FREQ_HZ, config.LED_DMA,
-                                       config.LED_INVERT, config.BRIGHTNESS)
-    strip.begin()
+    # from rpi_ws281x import *
+    # strip = Adafruit_NeoPixel(config.N_PIXELS, config.LED_PIN,
+    #                                    config.LED_FREQ_HZ, config.LED_DMA,
+    #                                    config.LED_INVERT, config.BRIGHTNESS)
+    # strip.begin()
+    1==1
 elif config.DEVICE == 'blinkstick':
     from blinkstick import blinkstick
     import signal
@@ -83,6 +94,10 @@ def _update_esp8266():
     _prev_pixels = np.copy(p)
 
 
+def setLights(pin, brightness):
+	realBrightness = int(int(brightness) * (float(bright) / 255.0))
+	pi.set_PWM_dutycycle(pin, realBrightness)
+
 def _update_pi():
     """Writes new LED values to the Raspberry Pi's LED strip
 
@@ -99,15 +114,21 @@ def _update_pi():
     g = np.left_shift(p[1][:].astype(int), 16)
     b = p[2][:].astype(int)
     rgb = np.bitwise_or(np.bitwise_or(r, g), b)
+
+ 
+    setLights(RED_PIN, p[0][0].astype(int))
+    setLights(GREEN_PIN, p[1][0].astype(int))
+    setLights(BLUE_PIN, p[2][0].astype(int))
+
     # Update the pixels
-    for i in range(config.N_PIXELS):
-        # Ignore pixels if they haven't changed (saves bandwidth)
-        if np.array_equal(p[:, i], _prev_pixels[:, i]):
-            continue
+    # for i in range(config.N_PIXELS):
+    #     # Ignore pixels if they haven't changed (saves bandwidth)
+    #     if np.array_equal(p[:, i], _prev_pixels[:, i]):
+    #         continue
             
-        strip._led_data[i] = int(rgb[i])
-    _prev_pixels = np.copy(p)
-    strip.show()
+    #     strip._led_data[i] = int(rgb[i])
+    # _prev_pixels = np.copy(p)
+    # strip.show()
 
 def _update_blinkstick():
     """Writes new LED values to the Blinkstick.
