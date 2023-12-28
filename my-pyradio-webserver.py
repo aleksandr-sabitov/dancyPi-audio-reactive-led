@@ -217,16 +217,16 @@ div[id^='a_']:hover { underline: none;}
                     <button onclick="js_send_simple_command('/html/randomradio', 0);" type="button" class="btn btn" style="color:white;background-color:darkcyan">Random<br>Radio</button>                   
                     <button id="group" type="button" class="btn btn" style="color:white;background-color:white">No<br>Button</button>
                     <button onclick="js_send_simple_command('/html/greyled', 0);" type="button" class="btn btn" style="color:white;background-color:grey">Grey<br>LED</button>                   
-                    <button onclick="js_send_simple_command('/html/darkgreenled', 0);" type="button" class="btn btn" style="color:white;background-color:darkgreen">Dark<br>Green</button>
-                    <button onclick="js_send_simple_command('/html/darkseagreenled', 0);" type="button" class="btn btn" style="color:white;border-color:black;background-color:seagreen">Dark<br>SeaGreen</button>
                     <button onclick="js_send_simple_command('/html/darkchocolateled', 0);" type="button" class="btn btn" style="color:white;background-color:saddlebrown">Dark<br>Chocolate</button>
                     <button onclick="js_send_simple_command('/html/darkorangeled', 0);" type="button" class="btn btn" style="color:white;background-color:orangered">Dark<br>Orange</button>                
                     <button onclick="js_send_simple_command('/html/darktomatoled', 0);" type="button" class="btn btn" style="color:white;background-color:indianred">Dark<br>Tomato</button>                     
                     <button onclick="js_send_simple_command('/html/darkredled', 0);" type="button" class="btn btn" style="color:white;background-color:darkred">Dark<br>Red</button>
-                    <button onclick="js_send_simple_command('/html/darkpurpleled', 0);" type="button" class="btn btn" style="color:white;background-color:indigo">Dark<br>Purple</button>
                     <button onclick="js_send_simple_command('/html/darkvioletled', 0);" type="button" class="btn btn" style="color:white;background-color:blueviolet">Dark<br>Violet</button>
-                    <button onclick="js_send_simple_command('/html/darkaqualed', 0);" type="button" class="btn btn" style="color:white;background-color:teal">Dark<br>aqua</button>
+                    <button onclick="js_send_simple_command('/html/darkpurpleled', 0);" type="button" class="btn btn" style="color:white;background-color:indigo">Dark<br>Purple</button>
                     <button onclick="js_send_simple_command('/html/darkblueled', 0);" type="button" class="btn btn" style="color:white;background-color:darkblue">Dark<br>Blue</button>
+                    <button onclick="js_send_simple_command('/html/darkaqualed', 0);" type="button" class="btn btn" style="color:white;background-color:teal">Dark<br>aqua</button>                
+                    <button onclick="js_send_simple_command('/html/darkseagreenled', 0);" type="button" class="btn btn" style="color:white;border-color:black;background-color:seagreen">Dark<br>SeaGreen</button>
+                    <button onclick="js_send_simple_command('/html/darkgreenled', 0);" type="button" class="btn btn" style="color:white;background-color:darkgreen">Dark<br>Green</button>                
                 </div>
             </div>
             <div class="col-xs-4 col-lg-4">
@@ -236,17 +236,17 @@ div[id^='a_']:hover { underline: none;}
                     <button id="group1" type="button" class="btn btn" style="color:white;background-color:white">No<br>Button</button>                    
                     <button id="group2" type="button" class="btn btn" style="color:white;background-color:white">No<br>Button</button>                                        
                     <button onclick="js_send_simple_command('/html/lightgreyled', 0);" type="button" class="btn btn" style="color:black;background-color:lyghtgrey">Light<br>Grey</button>                   
-                    <button onclick="js_send_simple_command('/html/normalgreenled', 0);" type="button" class="btn btn" style="color:lightgreen;background-color:green">Normal<br>Green</button>
-                    <button onclick="js_send_simple_command('/html/normalseagreenled', 0);" type="button" class="btn btn" style="color:white;border-color:black;background-color:lightseagreen">Normal<br>SeaGreen</button>
                     <button onclick="js_send_simple_command('/html/normalchocolateled', 0);" type="button" class="btn btn" style="color:white;background-color:chocolate">Normal<br>Chocolate</button>
                     <button onclick="js_send_simple_command('/html/normalorangeled', 0);" type="button" class="btn btn" style="color:black;background-color:darkorange">Normal<br>Orange</button>                
                     <button onclick="js_send_simple_command('/html/normaltomatoled', 0);" type="button" class="btn btn" style="color:black;background-color:tomato">Normal<br>Tomato</button>                     
                     <button onclick="js_send_simple_command('/html/normalredled', 0);" type="button" class="btn btn" style="color:white;background-color:crimson">Normal<br>Red</button>
-                    <button onclick="js_send_simple_command('/html/normalpurpleled', 0);" type="button" class="btn btn" style="color:white;background-color:purple">Normal<br>Purple</button>
                     <button onclick="js_send_simple_command('/html/normalvioletled', 0);" type="button" class="btn btn" style="color:white;background-color:mediumvioletred">Normal<br>Violet</button>
-                    <button onclick="js_send_simple_command('/html/normalaqualed', 0);" type="button" class="btn btn" style="color:black;background-color:DarkTurquoise">Normal<br>aqua</button>
+                    <button onclick="js_send_simple_command('/html/normalpurpleled', 0);" type="button" class="btn btn" style="color:white;background-color:purple">Normal<br>Purple</button>
                     <button onclick="js_send_simple_command('/html/normalblueled', 0);" type="button" class="btn btn" style="color:white;background-color:blue">Normal<br>Blue</button>
-                </div>
+                    <button onclick="js_send_simple_command('/html/normalaqualed', 0);" type="button" class="btn btn" style="color:black;background-color:DarkTurquoise">Normal<br>aqua</button>
+                    <button onclick="js_send_simple_command('/html/normalseagreenled', 0);" type="button" class="btn btn" style="color:white;border-color:black;background-color:lightseagreen">Normal<br>SeaGreen</button>
+                    <button onclick="js_send_simple_command('/html/normalgreenled', 0);" type="button" class="btn btn" style="color:lightgreen;background-color:green">Normal<br>Green</button>
+               </div>
             </div>
             <div class="col-xs-4 col-lg-4">
                 <div class="text-center">
@@ -255,16 +255,16 @@ div[id^='a_']:hover { underline: none;}
                     <button onclick="js_send_simple_command('/html/offled', 0);" type="button" class="btn btn" style="color:white;background-color:black">LED<br>Off</button> 
                     <button id="group1" type="button" class="btn btn" style="color:white;background-color:white">No<br>Button</button>                                      
                     <button onclick="js_send_simple_command('/html/purewhiteled', 0);" type="button" class="btn btn" style="border-color:black;background-color:white">Pure<br>White</button>                   
-                    <button onclick="js_send_simple_command('/html/brightgreenled', 0);" type="button" class="btn btn" style="color:black;background-color:lightgreen">Bright<br>Green</button>
-                    <button onclick="js_send_simple_command('/html/brightseagreenled', 0);" type="button" class="btn btn" style="color:White;border-color:seagreen;background-color:darkseagreen">Bright<br>SeaGreen</button>
                     <button onclick="js_send_simple_command('/html/brightchocolateled', 0);" type="button" class="btn btn" style="color:black;background-color:sandybrown">Bright<br>Chocolate</button>
                     <button onclick="js_send_simple_command('/html/brightorangeled', 0);" type="button" class="btn btn" style="color:black;background-color:orange">Bright<br>Orange</button>                
                     <button onclick="js_send_simple_command('/html/brighttomatoled', 0);" type="button" class="btn btn" style="color:black;background-color:salmon">Bright<br>Tomato</button>                     
                     <button onclick="js_send_simple_command('/html/brightredled', 0);" type="button" class="btn btn" style="color:white;background-color:red">Bright<br>Red</button>
-                    <button onclick="js_send_simple_command('/html/brightpurpleled', 0);" type="button" class="btn btn" style="color:white;background-color:mediumpurple">Bright<br>Purple</button>
                     <button onclick="js_send_simple_command('/html/brightvioletled', 0);" type="button" class="btn btn" style="color:black;background-color:violet">Bright<br>Violet</button>
-                    <button onclick="js_send_simple_command('/html/brightaqualed', 0);" type="button" class="btn btn" style="color:black;background-color:aqua">Bright<br>aqua</button>
+                    <button onclick="js_send_simple_command('/html/brightpurpleled', 0);" type="button" class="btn btn" style="color:white;background-color:mediumpurple">Bright<br>Purple</button>
                     <button onclick="js_send_simple_command('/html/brightblueled', 0);" type="button" class="btn btn" style="color:white;background-color:deepskyblue">Bright<br>Blue</button>
+                    <button onclick="js_send_simple_command('/html/brightaqualed', 0);" type="button" class="btn btn" style="color:black;background-color:aqua">Bright<br>aqua</button>
+                    <button onclick="js_send_simple_command('/html/brightseagreenled', 0);" type="button" class="btn btn" style="color:White;border-color:seagreen;background-color:darkseagreen">Bright<br>SeaGreen</button>
+                    <button onclick="js_send_simple_command('/html/brightgreenled', 0);" type="button" class="btn btn" style="color:black;background-color:lightgreen">Bright<br>Green</button>
                 </div>
             </div>
         </div>
@@ -931,7 +931,7 @@ Restricted Commands (Main mode only)
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
                 if self.led_music_subprocess_pid == 0:
-                    led_subprocess = subprocess.Popen(["sudo pigpiod && sleep 0.2 && cd /home/raspberry/git/dancyPi-audio-reactive-led/python/ &&  /home/raspberry/mypy-env/bin/python visualization.py scroll"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True, preexec_fn=os.setsid)
+                    led_subprocess = subprocess.Popen(["sudo pigpiod && sleep 0.1 && cd /home/raspberry/git/dancyPi-audio-reactive-led/python/ &&  /home/raspberry/mypy-env/bin/python visualization.py scroll"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True, preexec_fn=os.setsid)
                     self.led_music_subprocess_pid = led_subprocess.pid
             else:
                 pass  
@@ -941,7 +941,7 @@ Restricted Commands (Main mode only)
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
                 if self.led_music_subprocess_pid == 0:
-                    led_subprocess = subprocess.Popen(["sudo pigpiod && sleep 0.2 && cd /home/raspberry/git/dancyPi-audio-reactive-led/python/ &&  /home/raspberry/mypy-env/bin/python visualization.py spectrum"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True, preexec_fn=os.setsid)
+                    led_subprocess = subprocess.Popen(["sudo pigpiod && sleep 0.1 && cd /home/raspberry/git/dancyPi-audio-reactive-led/python/ &&  /home/raspberry/mypy-env/bin/python visualization.py spectrum"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True, preexec_fn=os.setsid)
                     self.led_music_subprocess_pid = led_subprocess.pid
             else:
                 pass 
@@ -951,7 +951,7 @@ Restricted Commands (Main mode only)
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
                 if self.led_music_subprocess_pid == 0:
-                    led_subprocess = subprocess.Popen(["sudo pigpiod && sleep 0.2 && cd /home/raspberry/git/dancyPi-audio-reactive-led/python/ &&  /home/raspberry/mypy-env/bin/python visualization.py energy"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True, preexec_fn=os.setsid)
+                    led_subprocess = subprocess.Popen(["sudo pigpiod && sleep 0.1 && cd /home/raspberry/git/dancyPi-audio-reactive-led/python/ &&  /home/raspberry/mypy-env/bin/python visualization.py energy"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True, preexec_fn=os.setsid)
                     self.led_music_subprocess_pid = led_subprocess.pid
             else:
                 pass                                      
@@ -964,7 +964,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 0 && pigs p 24 0")
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 0 && pigs p 24 0")
                 os.system("sudo kill -9 $(ps aux | grep 'pigpiod' | grep root | awk '{print $2}')")
             else:
                 pass      
@@ -978,7 +978,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 56 && pigs p 22 0 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 56 && pigs p 22 0 && pigs p 24 0")               
             else:
                 pass     
         elif self._path in ('/normalredled'):
@@ -991,7 +991,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 128 && pigs p 22 0 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 128 && pigs p 22 0 && pigs p 24 0")               
             else:
                 pass       
         elif self._path in ('/brightredled'):
@@ -1004,7 +1004,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 255 && pigs p 22 0 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 255 && pigs p 22 0 && pigs p 24 0")               
             else:
                 pass        
         elif self._path in ('/darkblueled'):
@@ -1016,7 +1016,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 0 && pigs p 24 32")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 0 && pigs p 24 32")               
             else:
                 pass     
         elif self._path in ('/normalblueled'):
@@ -1028,7 +1028,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 0 && pigs p 24 128")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 0 && pigs p 24 128")               
             else:
                 pass
         elif self._path in ('/brightblueled'):
@@ -1040,7 +1040,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 0 && pigs p 24 255")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 0 && pigs p 24 255")               
             else:
                 pass
         elif self._path in ('/darkgreenled'):
@@ -1052,7 +1052,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 23 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 23 && pigs p 24 0")               
             else:
                 pass
         elif self._path in ('/normalgreenled'):
@@ -1064,7 +1064,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 128 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 128 && pigs p 24 0")               
             else:
                 pass
         elif self._path in ('/brightgreenled'):
@@ -1076,7 +1076,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 255 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 255 && pigs p 24 0")               
             else:
                 pass
         elif self._path in ('/greyled'):
@@ -1088,7 +1088,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 62 && pigs p 22 37 && pigs p 24 27")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 62 && pigs p 22 37 && pigs p 24 27")               
             else:
                 pass
         elif self._path in ('/lightgreyled'):
@@ -1100,7 +1100,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 128 && pigs p 22 75 && pigs p 24 75")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 128 && pigs p 22 75 && pigs p 24 75")               
             else:
                 pass
         elif self._path in ('/purewhiteled'):
@@ -1112,7 +1112,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 255 && pigs p 22 150 && pigs p 24 150")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 255 && pigs p 22 150 && pigs p 24 150")               
             else:
                 pass                        
         elif self._path in ('/goldled'):
@@ -1124,7 +1124,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 255 && pigs p 22 120 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 255 && pigs p 22 120 && pigs p 24 0")               
             else:
                 pass
         elif self._path in ('/darkchocolateled'):
@@ -1136,7 +1136,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 26 && pigs p 22 12 && pigs p 24 4")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 26 && pigs p 22 12 && pigs p 24 4")               
             else:
                 pass
         elif self._path in ('/normalchocolateled'):
@@ -1148,7 +1148,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 52 && pigs p 22 26 && pigs p 24 7")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 52 && pigs p 22 26 && pigs p 24 7")               
             else:
                 pass
         elif self._path in ('/brightchocolateled'):
@@ -1160,7 +1160,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 110 && pigs p 22 52 && pigs p 24 15")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 110 && pigs p 22 52 && pigs p 24 15")               
             else:
                 pass
         elif self._path in ('/darkaqualed'):
@@ -1172,7 +1172,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 22 && pigs p 24 22")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 22 && pigs p 24 22")               
             else:
                 pass
         elif self._path in ('/normalaqualed'):
@@ -1184,7 +1184,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 96 && pigs p 24 96")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 96 && pigs p 24 96")               
             else:
                 pass
         elif self._path in ('/brightaqualed'):
@@ -1196,7 +1196,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 0 && pigs p 22 255 && pigs p 24 255")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 0 && pigs p 22 255 && pigs p 24 255")               
             else:
                 pass
         elif self._path in ('/darkpurpleled'):
@@ -1208,7 +1208,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 32 && pigs p 22 0 && pigs p 24 32")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 32 && pigs p 22 0 && pigs p 24 32")               
             else:
                 pass
         elif self._path in ('/normalpurpleled'):
@@ -1220,7 +1220,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 72 && pigs p 22 0 && pigs p 24 72")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 72 && pigs p 22 0 && pigs p 24 72")               
             else:
                 pass
         elif self._path in ('/brightpurpleled'):
@@ -1232,7 +1232,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 178 && pigs p 22 0 && pigs p 24 178")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 178 && pigs p 22 0 && pigs p 24 178")               
             else:
                 pass
         elif self._path in ('/darkseagreenled'):
@@ -1244,7 +1244,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 11 && pigs p 22 35 && pigs p 24 21")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 11 && pigs p 22 35 && pigs p 24 21")               
             else:
                 pass
         elif self._path in ('/normalseagreenled'):
@@ -1256,7 +1256,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 23 && pigs p 22 70 && pigs p 24 43")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 23 && pigs p 22 70 && pigs p 24 43")               
             else:
                 pass
         elif self._path in ('/brightseagreenled'):
@@ -1268,7 +1268,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 46 && pigs p 22 139 && pigs p 24 87")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 46 && pigs p 22 139 && pigs p 24 87")               
             else:
                 pass
         elif self._path in ('/darktomatoled'):
@@ -1280,7 +1280,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 32 && pigs p 22 8 && pigs p 24 8")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 32 && pigs p 22 8 && pigs p 24 8")               
             else:
                 pass
         elif self._path in ('/normaltomatoled'):
@@ -1292,7 +1292,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 96 && pigs p 22 20 && pigs p 24 23")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 96 && pigs p 22 20 && pigs p 24 23")               
             else:
                 pass
         elif self._path in ('/brighttomatoled'):
@@ -1304,7 +1304,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 255 && pigs p 22 50 && pigs p 24 40")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 255 && pigs p 22 50 && pigs p 24 40")               
             else:
                 pass
         elif self._path in ('/darkvioletled'):
@@ -1316,7 +1316,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 32 && pigs p 22 13 && pigs p 24 30")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 32 && pigs p 22 13 && pigs p 24 30")               
             else:
                 pass   
         elif self._path in ('/normalvioletled'):
@@ -1328,7 +1328,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 128 && pigs p 22 50 && pigs p 24 119")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 128 && pigs p 22 50 && pigs p 24 119")               
             else:
                 pass
         elif self._path in ('/brightvioletled'):
@@ -1340,7 +1340,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 255 && pigs p 22 100 && pigs p 24 238")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 255 && pigs p 22 100 && pigs p 24 238")               
             else:
                 pass
         elif self._path in ('/darkorangeled'):
@@ -1352,7 +1352,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 64 && pigs p 22 18 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 64 && pigs p 22 18 && pigs p 24 0")               
             else:
                 pass                                    
         elif self._path in ('/normalorangeled'):
@@ -1364,7 +1364,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 128 && pigs p 22 35 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 128 && pigs p 22 35 && pigs p 24 0")               
             else:
                 pass
         elif self._path in ('/brightorangeled'):
@@ -1376,7 +1376,7 @@ Restricted Commands (Main mode only)
                 if self.led_music_subprocess_pid > 0:
                     os.killpg(os.getpgid(self.led_music_subprocess_pid), signal.SIGTERM)  
                     self.led_music_subprocess_pid = 0 
-                os.system("sudo pigpiod && sleep 0.2 && pigs p 17 255 && pigs p 22 69 && pigs p 24 0")               
+                os.system("sudo pigpiod && sleep 0.1 && pigs p 17 255 && pigs p 22 69 && pigs p 24 0")               
             else:
                 pass
         elif self._path in ('/next', '/n'):
